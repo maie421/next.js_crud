@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "debug": "node --inspect-brk ./node_modules/next/dist/bin/next"
+
   },
   "dependencies": {
     "next": "^11.0.0",

@@ -1,20 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
+import TodoContainer from "./TodoContainer";
 
-const About = () => (
+export default () => (
   <div>
     <Head>
-      <title>About</title>
+      <title>Todo</title>
       <link rel="icon" href="/favicon.ico" />
       <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
     </Head>
-    <div className="container mx-auto text-center">
-      <h1 className="text-6xl m-12">Macro Compliance Tracker!</h1>
-      <p className="text-xl">
-        This app will help you ensure your macros are within a selected range to help you achieve your New Years Resolution!
-      </p>
-    </div>
+    <TodoContainer/>
   </div>
 )
-
-export default About

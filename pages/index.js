@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import TodoContainer from "./TodoContainer";
 
-export default () => (
+const App = () => (
   <div>
     <Head>
       <title>Todo</title>
@@ -12,3 +12,5 @@ export default () => (
     <TodoContainer/>
   </div>
 )
+
+export default App;
